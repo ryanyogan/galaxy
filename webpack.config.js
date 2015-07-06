@@ -7,7 +7,7 @@ function getEntrySources(sources) {
   return sources;
 }
 
-var cdn = (process.env.NODE_ENV === 'production' ? '/public/' : 'http://localhost:8080/public');
+var cdn = (process.env.NODE_ENV === 'production' ? '/' : 'http://localhost:8080/');
 
 module.exports = {
   entry: {
@@ -18,7 +18,7 @@ module.exports = {
 
   output: {
     publicPath: cdn,
-    filename: '[name].js'
+    filename: 'bundle.js'
   },
 
   module: {
