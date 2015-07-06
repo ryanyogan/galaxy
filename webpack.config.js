@@ -12,7 +12,7 @@ var cdn = (process.env.NODE_ENV === 'production' ? '/' : 'http://localhost:8080/
 module.exports = {
   entry: {
     helloWorld: getEntrySources([
-      './js/helloworld.js'
+      './js/app.js'
     ])
   },
 
