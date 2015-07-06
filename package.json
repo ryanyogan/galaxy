@@ -1,7 +1,7 @@
 {
-  "name": "playingWithReact",
+  "name": "galaxy-proto",
   "version": "0.0.1",
-  "description": "Playing with React",
+  "description": "Initial App to bootstrap to S3",
   "main": "index.js",
   "scripts": {
     "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --progress --colors"
@@ -11,6 +11,7 @@
   "devDependencies": {
     "http-server": "^0.8.0",
     "jsx-loader": "^0.13.2",
+    "lodash": "^3.10.0",
     "node-libs-browser": "^0.5.2",
     "react": "^0.13.3",
     "react-hot-loader": "^1.2.7",
