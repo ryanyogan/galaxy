@@ -7,7 +7,7 @@ function getEntrySources(sources) {
   return sources;
 }
 
-var cdn = (process.env.NODE_ENV === 'production' ? '/' : 'http://localhost:8080/');
+var cdn = (process.env.NODE_ENV === 'production' ? 'public/' : 'http://localhost:8080/public/');
 
 module.exports = {
   entry: {
