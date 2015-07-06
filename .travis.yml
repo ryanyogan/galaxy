@@ -8,6 +8,5 @@ deploy:
   secret_access_key:
     secure: poMyLKsMfEYlRcwBwe+ZNmaJKh1ze+1uzlf13HCUpubHE1qaeWteU9GdGtiHqdbnJxIt19Yflwz9G/Wrn4AVOg5uQ7yG1uc2UEQI6i3s1xAYr6y1DpW9pjc/3FuqOjNX+ceO+zZsa/42SVawuxLhbw7XKLKsLMgNw9q6rU4uisHutmfW1xCuIWaVsjhhxGwhsyueqVwICg0Wa+/K6v7oaL6nNWTrp6OEIywyZ9/Pq3+AvSCtvU0kcVkBtRBhpI3eOr6DGXVPKz+sU7MTX0StnrJStfb7/QueWIKDMxJPFhggP9cl+rmKpXYQGeAhdJgjYLX6F4Tx/3gPrIflQmNfBMlcd+TyojIa2uuGFTU7eytyIIDnkB+N5UM1AAQJBGSFPbCkP5wvP3PlcVFvK4uy232oUrGua8WKSdECtZpzjaEARsraR8eE0vhWJWtUaVbKy2/12RHSeh7+hB1Or9x9xQfjXnD5BUqGIEUGEWaL1vhwLdNbD+zPY14QbLQYbjvFXNVv5XPyUyAuxJgodIktATZPiEvG/qI/jJ7jmW72FeShFHUCpj5YBJ5Pd85ucjUp8kPSRlcWqlK4NcQKIVKMQRtV7tyPBnj+sTpEUQNipcY4BGxagOCBVY9iSxDIvJLlC/Ewg7T7D8PQjrry0K5GntDcNBv8+3+aNP9Ihu018Qg=
   bucket: galaxy-dev-sa2s
-  acl: ''
   on:
     repo: ryanyogan/galaxy
