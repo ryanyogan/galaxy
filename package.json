@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Testing was good!\"",
+    "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js -p",
     "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --progress --colors"
   },
   "author": "",
