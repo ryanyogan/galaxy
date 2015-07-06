@@ -7,6 +7,8 @@ function getEntrySources(sources) {
   return sources;
 }
 
+var cdn = (process.env.NODE_ENV === 'production' ? '/public/' : 'http://localhost:8080/public');
+
 module.exports = {
   entry: {
     helloWorld: getEntrySources([
@@ -15,8 +17,8 @@ module.exports = {
   },
 
   output: {
-    publicPath: 'http://localhost:8080/',
-    filename: 'public/[name].js'
+    publicPath: cdn,
+    filename: '[name].js'
   },
 
   module: {
