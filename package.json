@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Testing was good!\"",
     "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js -p",
-    "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --progress --colors"
+    "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --progress --colors",
+    "dev": "NODE_ENV=production webpack-dev-server --devtool eval --progress --colors --content-base build"
   },
   "author": "",
   "license": "ISC",
